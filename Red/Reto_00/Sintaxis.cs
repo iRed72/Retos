@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Reto #00: Sintaxis, Variables, Tipos de Datos y Hola Mundo
  * EJERCICIO:
  * - Crea un comentario en el código y coloca la URL del sitio web oficial del
@@ -12,10 +12,10 @@
 */
 
 using System;
-class sintaxis
+class Sintaxis
 {
     static void Main()
     {
-        Console.WriteLine("Hello, World");
+        Console.WriteLine("Hola Jossue");
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\jossu\Desktop\Retos\Red\Reto_00\bin\Debug\net8.0\Reto_00.exe
+C:\Users\jossu\Desktop\Retos\Red\Reto_00\bin\Debug\net8.0\Reto_00.deps.json
+C:\Users\jossu\Desktop\Retos\Red\Reto_00\bin\Debug\net8.0\Reto_00.runtimeconfig.json
+C:\Users\jossu\Desktop\Retos\Red\Reto_00\bin\Debug\net8.0\Reto_00.dll
+C:\Users\jossu\Desktop\Retos\Red\Reto_00\bin\Debug\net8.0\Reto_00.pdb
+C:\Users\jossu\Desktop\Retos\Red\Reto_00\obj\Debug\net8.0\Reto_00.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jossu\Desktop\Retos\Red\Reto_00\obj\Debug\net8.0\Reto_00.AssemblyInfoInputs.cache
+C:\Users\jossu\Desktop\Retos\Red\Reto_00\obj\Debug\net8.0\Reto_00.AssemblyInfo.cs
+C:\Users\jossu\Desktop\Retos\Red\Reto_00\obj\Debug\net8.0\Reto_00.csproj.CoreCompileInputs.cache
+C:\Users\jossu\Desktop\Retos\Red\Reto_00\obj\Debug\net8.0\Reto_00.sourcelink.json
+C:\Users\jossu\Desktop\Retos\Red\Reto_00\obj\Debug\net8.0\Reto_00.dll
+C:\Users\jossu\Desktop\Retos\Red\Reto_00\obj\Debug\net8.0\refint\Reto_00.dll
+C:\Users\jossu\Desktop\Retos\Red\Reto_00\obj\Debug\net8.0\Reto_00.pdb
+C:\Users\jossu\Desktop\Retos\Red\Reto_00\obj\Debug\net8.0\Reto_00.genruntimeconfig.cache
+C:\Users\jossu\Desktop\Retos\Red\Reto_00\obj\Debug\net8.0\ref\Reto_00.dll
