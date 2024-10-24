@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Red", "Red", "{C1AACF66-5222-4711-95EE-CC1B788A52F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reto_00", "Red\Reto_00\Reto_00.csproj", "{2C815884-BF9D-434D-82D8-60B08241BFDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C815884-BF9D-434D-82D8-60B08241BFDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C815884-BF9D-434D-82D8-60B08241BFDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C815884-BF9D-434D-82D8-60B08241BFDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C815884-BF9D-434D-82D8-60B08241BFDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C815884-BF9D-434D-82D8-60B08241BFDC} = {C1AACF66-5222-4711-95EE-CC1B788A52F3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2CE9E0E-BDD0-43BD-8CED-2AACCDA7298D}
+	EndGlobalSection
+EndGlobal
