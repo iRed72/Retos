@@ -14,12 +14,13 @@
 /*  https://github.com/iRed72/Retos   Lenguaje C*/
 #include <stdio.h>
 #include <math.h>
-float 14;
-int 1;
+int main()
+{
+float Q;
+int S;
 char A,B,C,D;
-double 100;
-long double 145;
-true 1;
-false 0;
+double R;
+long double F5;
 printf("Hola C");
-erre
+return 0;
+}
