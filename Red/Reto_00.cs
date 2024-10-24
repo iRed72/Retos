@@ -14,8 +14,11 @@
 using System;
 class sintaxis
 {
-    static void Main()
+    static void Main(string[]args)
     {
+
+
+
         Console.WriteLine("Hello, World");
     }
 }

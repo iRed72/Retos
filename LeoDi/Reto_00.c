@@ -11,7 +11,6 @@
  * - Imprime por terminal el texto: "¡Hola, [y el nombre de tu lenguaje]!"
 */
 
-/*  https://github.com/iRed72/Retos   Lenguaje C*/
 #include <stdio.h>
 #include <math.h>
 #include<stdbool.h>
