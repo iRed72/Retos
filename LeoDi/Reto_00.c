@@ -21,6 +21,6 @@ int S;
 char A,B,C,D;
 double R;
 long double F5;
-printf("Hola C");
+printf("Hola");
 return 0;
 }
