@@ -10,3 +10,16 @@
  *   del lenguaje (cadenas de texto, enteros, booleanos...).
  * - Imprime por terminal el texto: "¡Hola, [y el nombre de tu lenguaje]!"
 */
+
+/*  https://github.com/iRed72/Retos   Lenguaje C*/
+#include <stdio.h>
+#include <math.h>
+float 14;
+int 1;
+char A,B,C,D;
+double 100;
+long double 145;
+true 1;
+false 0;
+printf("Hola C");
+erre
