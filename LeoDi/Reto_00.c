@@ -14,13 +14,18 @@
 /*  https://github.com/iRed72/Retos   Lenguaje C*/
 #include <stdio.h>
 #include <math.h>
+#include<stdbool.h>
+
 int main()
 {
-float Q;
-int S;
-char A,B,C,D;
-double R;
-long double F5;
-printf("Hola");
-return 0;
+    float Q;
+    int S;
+    char A,B,C,D;
+    double R;
+    long double F5;
+    bool Verdad = true;
+    bool Falso = false;
+
+    printf("Hola C");
+    return 0;
 }
