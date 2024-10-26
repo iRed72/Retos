@@ -14,7 +14,93 @@
  * entre 10 y 55 (incluidos), pares, y que no son ni el 16 ni múltiplos de 3.
  *
  * Seguro que al revisar detenidamente las posibilidades has descubierto algo nuevo.
- */
+*/
+
+/*
+    *Correcciones
+
+    1.- Falta terminar el ejercicio, faltan operadores como el comparacion, ||, &&, entre otros.
+
+    2.- Falta agregar las estruturas de control si no sabes que son investigar y agregar todas las
+        estructuras de control que tiene C tambien agreagreles un comentario a cada uno indicando cual
+        es su funcion
+
+    3.- El nombre de tus varibles son todas en mayusculas, no tiene nada de malo y no afecta en nada 
+        en tenerlas asi pero si vas a usar palabras grandes puede que no muy util escribir todo en
+        mayusculas porque puede no ser agradable para la vista ademas no es algo usual
+        Ejemplo:
+
+            int PRIMERNUMERO = 1;
+            int PrimerNumero = 1;
+
+    4.- Cuando pides los numeros a ingresar solo escribes "Escribe los 2 numeros" puede que suene tonto
+        pero si le das el programa a alguien se va confunfir y no va saber a que se refiere siempre 
+        tienes que hacer todo de manera intuitiva podrias cambirlo por "Ingrese un numero".
+
+        Cuando pides los numero los pides en el mismo renglon es decir tienes que 
+        ingresar "n1, n2" por lo que no es nada intuitivo por lo que yo lo considero que esta mal
+        es mejor hacer lo siguiente
+        Ejemplo:
+            printf("Ingrese un numero: ");
+            scanf("%i",&n1);
+            printf("Ingrese otro numero: ");
+            scanf("%i",&n2);
+        De esta manera es mas facil para el usuario ya se en entendimiento o escritura
+
+    5.- En el if pones que si sum es mayor que res imprima "verdadero" pero nuevamente el usuario
+        no sabe a que se refiere imagina que solo corres el programa sin ver el codigo ahi solo ves
+        verdadero pero no sabes ques verdadero asi que te recomiendo agregar un impresion que diga que
+        es verdadero
+        Ejemplo:
+            if (SUM > RES)
+            {
+                printf("\Su suma es mayor que su resta");
+            }
+
+    Notas o comentarios:
+        -Por ahi tienes un comentario ñ donde usas /* * pero ese es un comentario de bloqe y es usado
+        cuando vas escribir mucho como lo que te pongo si lo quieres hacer algo pequeño de una linea
+        simplemte pon "//" y todo lo puesto sepues de eso en un renglon sera comentado.
+
+        - Algunas de las cosas que te dije son como recomendaciones que llevan a una buena escritura 
+        de programacion son opcionales de momento pero tarde o teprano tendras que usarlas
+
+        Tambien consejo es que no porque algo funcione quiere decir que esta bien es decir si un
+        codigo funciona es correcto pero no quiere decir que es lo mejor por ejemplo  lo que te dije 
+        de ingresar los datos no es algo intuitivo y dunciona pero no esta bien del todo.
+
+     *No te voy a revisar el ejercico funcional opcional hasta que este corrgido el Reto_00 y hayas 
+     *echo bien la priemra parte del Reto_01
+*/
+
+// *Ejercicio
+
+#include <stdio.h>
+#include <math.h>
+int n1,n2,SUM,RES,DIV,MULT,MOD;
+int main()
+{
+    printf("Escribe los 2 numeros: ");
+    scanf("%i,%i",&n1,&n2);
+    SUM=n1+n2;
+    RES=n1-n2;
+    DIV=n1/n2;
+    MULT=n1*n2;
+    MOD=n1%n2;
+    /* ñ */
+    printf("\nSUMA: %i",SUM);
+    printf("\nRESTA: %i",RES);
+    printf("\nDIVISION: %i",DIV);
+    printf("\nMULTIPLICACION: %i",MULT);
+    printf("\nMODULO: %i",MOD);
+    if (SUM > RES)
+    {
+        printf("\nVerdadero");
+    }
+return 0;
+}
+
+// *Ejercicio Extra (opcional)
 
 /* #include <stdio.h>
 #include <math.h>
@@ -41,28 +127,3 @@ int main()
 
 return 0;
 } */
-/*  https://github.com/iRed72/Retos   Lenguaje C*/
-#include <stdio.h>
-#include <math.h>
-int n1,n2,SUM,RES,DIV,MULT,MOD;
-int main()
-{
-    printf("Escribe los 2 numeros: ");
-    scanf("%i,%i",&n1,&n2);
-    SUM=n1+n2;
-    RES=n1-n2;
-    DIV=n1/n2;
-    MULT=n1*n2;
-    MOD=n1%n2;
-/* ñ */
-    printf("\nSUMA: %i",SUM);
-    printf("\nRESTA: %i",RES);
-    printf("\nDIVISION: %i",DIV);
-    printf("\nMULTIPLICACION: %i",MULT);
-    printf("\nMODULO: %i",MOD);
-    if (SUM > RES)
-    {
-        printf("\nVerdadero");
-    }
-return 0;
-}
