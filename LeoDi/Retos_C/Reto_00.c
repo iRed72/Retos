@@ -34,20 +34,25 @@
 
 // *Ejercicio 
 
-#include <stdio.h> // 5
-#include <math.h> // 1
+#include <stdio.h> // STDIO significa Standard Input Output (Entrada/Salida estándar ). Tiene algunas funciones predefinidas como int printf(), scanf(), etc.
 #include<stdbool.h> 
-
+#define PI 3.1416 // se define la variable constante escribiendo primero #define seguido de espacio nombre de constante, espacio y valor de la constante
 int main()
 {
-    float Q; // 2
-    int S; // 2
-    char A,B,C,D;
-    double R; // 2
-    long double F5; // 2
-    bool Verdad = true;
-    bool Falso = false;
+      
+    float E = 1.24E3; // almacena caracteres tipo real y tiene mas capacidad de almacenamiento que una variable de tipo entero (32 bits)
+    int num1 = 1; // este tipo de variable solo almacena numeros enteros (16 bits)
+    char A,B,C; // este tipo de variable almacena datos de tipo caracter (8 bits)
+    double D = 3.17; // proporciona las magnitudes más grandes y pequeñas posibles para un número (64 bits)
+    long double Pi = 3.14159; // proporciona las magnitudes aun más grandes y pequeñas posibles para un número y tambien tiene mas exactitud que double (64 bits)
+    char nombre[26]; // Es una cadena de caracteres
+    bool Verdad = true; // su valor resultante solo podra ser verdadero o tambien conocido como 1, en este caso encendido (1 byte)
+    bool Falso = false; // su valor resultante solo podra ser falso o tambien conocido como 0, en este caso apagado (0 byte)
 
+    printf("El valor de la constante PI es: %.4f\n\n",PI);
+    printf("nombre: ");
+    gets(nombre);
+    printf("\nEl nombre fue: %s",nombre);
     printf("Hola C");
-    return 0; // 5
+    return 0; // Sirve para indicar una ejecución exitosa del programa
 }

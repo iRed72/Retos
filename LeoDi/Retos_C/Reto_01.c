@@ -77,27 +77,32 @@
 
 #include <stdio.h>
 #include <math.h>
-int n1,n2,SUM,RES,DIV,MULT,MOD;
+int n1,n2,Num;
+float Oper,Sum,Res,Div,Mult,Mod;
 int main()
 {
-    printf("Escribe los 2 numeros: ");
-    scanf("%i,%i",&n1,&n2);
-    SUM=n1+n2;
-    RES=n1-n2;
-    DIV=n1/n2;
-    MULT=n1*n2;
-    MOD=n1%n2;
-    /* ñ */
-    printf("\nSUMA: %i",SUM);
-    printf("\nRESTA: %i",RES);
-    printf("\nDIVISION: %i",DIV);
-    printf("\nMULTIPLICACION: %i",MULT);
-    printf("\nMODULO: %i",MOD);
-    if (SUM > RES)
+    
+    printf("Escoge un numero en donde: \n1=suma \n2=resta \n3=multiplicacion \n4=division \n5=Modulo \nNumero: ");
+    scanf("%i",&Num);
+    printf("Escribe el primer numero: ");
+    scanf("%i",&n1);
+    printf("Escribe el segundo numero: ");
+    scanf("%i",&n2);
+    switch (Num)
     {
-        printf("\nVerdadero");
+        case 1: Oper=n1+n2;
+        break;
+        case 2: Oper=n1-n2;
+        break;
+        case 3: Oper=n1*n2;
+        break;
+        case 4: Oper=n1/n2;
+        break;
+        case 5: Oper=(n1%n2);
+        break;
     }
-return 0;
+    printf("%0.3f",Oper);
+    return 0;
 }
 
 // *Ejercicio Extra (opcional)
