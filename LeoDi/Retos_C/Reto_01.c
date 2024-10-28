@@ -73,7 +73,7 @@
      *echo bien la priemra parte del Reto_01
 */
 
-// *Ejercicio
+// *Ejercicio 001
 
 #include <stdio.h>
 #include <math.h>
