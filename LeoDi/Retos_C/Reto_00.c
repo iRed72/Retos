@@ -54,5 +54,5 @@ int main()
     gets(nombre);
     printf("\nEl nombre fue: %s",nombre);
     printf("Hola C");
-    return 0; // Sirve para indicar una ejecución exitosa del programa
+    return 0; // Sirve para indicar una ejecución exitosa del programa errrreeeeeeeee
 }
